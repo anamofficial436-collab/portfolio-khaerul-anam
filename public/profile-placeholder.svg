@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" fill="none">
+  <defs>
+    <linearGradient id="background" x1="74" y1="53" x2="564" y2="601" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C3150"/>
+      <stop offset="1" stop-color="#111525"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="177" y1="440" x2="477" y2="647" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#62DCE7"/>
+      <stop offset="1" stop-color="#8173E8"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="252" y1="218" x2="410" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9B99D"/>
+      <stop offset="1" stop-color="#BD806E"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="matrix(0 319 -319 0 320 319)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263D62"/>
+      <stop offset="1" stop-color="#18243C" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <circle cx="320" cy="320" r="320"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <path fill="url(#background)" d="M0 0h640v640H0z"/>
+    <circle cx="320" cy="320" r="319" fill="url(#halo)"/>
+    <circle cx="320" cy="322" r="218" stroke="#8EDFEA" stroke-opacity=".12"/>
+    <circle cx="320" cy="322" r="256" stroke="#9D92FF" stroke-opacity=".09"/>
+    <path fill="url(#shirt)" d="M139 649c11-121 71-196 181-196s170 75 181 196H139Z"/>
+    <path fill="#24334D" d="M282 422h76v72h-76z"/>
+    <path fill="url(#skin)" d="M253 318c0-78 28-128 67-128s67 50 67 128v55c0 55-29 91-67 91s-67-36-67-91v-55Z"/>
+    <path fill="#172030" d="M245 310c-8-72 23-131 83-131 68 0 95 52 79 135-13-7-26-26-32-53-37 34-82 49-130 49v24c-9-5-13-15-13-24Z"/>
+    <path fill="#172030" d="M255 249c14-49 57-78 112-66 26 6 46 22 54 46-46-22-104-19-166 20Z"/>
+    <path stroke="#885B54" stroke-linecap="round" stroke-width="5" d="M292 329h1m55 0h1"/>
+    <path stroke="#965E59" stroke-linecap="round" stroke-width="5" d="M306 379c9 8 20 8 29 0"/>
+    <path stroke="#885B54" stroke-linecap="round" stroke-width="4" d="M320 341v20"/>
+    <path fill="#E8F7FA" fill-opacity=".72" d="m161 171 8 17 18 8-18 8-8 18-8-18-18-8 18-8 8-17Zm340 103 6 12 13 6-13 6-6 13-6-13-13-6 13-6 6-12ZM192 402l5 10 11 5-11 5-5 11-5-11-11-5 11-5 5-10Z"/>
+    <circle cx="464" cy="167" r="3" fill="#69DFE9"/>
+    <circle cx="173" cy="294" r="3" fill="#A99BFF"/>
+    <circle cx="446" cy="416" r="4" fill="#69DFE9"/>
+  </g>
+</svg>
